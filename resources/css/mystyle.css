@@ -5,3 +5,36 @@
     line-height: 1.5;
     background-color: #81d1e3;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(123, 14, 139);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+div {    
+    height: 120px;
+    width: 120px;
+    border-radius: 50% 0% 50% 50%;
+    
+}
+
+#divMedio {
+    background-color: aqua;        
+    
+}
+
+#divI {
+    background-color: rgb(193, 165, 53);        
+    margin-top: 120px;
+}
+
+#divD {
+    background-color: rgb(255, 0, 230);          
+    transform: scale(-1,-1);
+    z-index: -1;
+    margin-top: -140px;
+}
